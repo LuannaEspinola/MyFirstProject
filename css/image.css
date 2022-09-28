@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+/*Configuração básica para posição de cada li*/
+ul#photos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+/*Configuração básica da posição de cada li e a velocidade que amplia a foto ao passar o mouse*/
+ul#photos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px rgba(0,0,0,4);
+    -webkit-transition: all .4s ease-in;
+}
+
+
+/*Configuração do span dentro do li ( legenda )*/
+ul#photos li span {
+    opacity: 0;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 350px;
+    padding: 5px;
+}
+
+ /*Ampliar a imagem ao passar o mouse*/
+ul#photos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+/*Quando passar o mouse por cima, aparecerá a legenda*/
+ul#photos li:hover span {
+    opacity: 1;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo01 {
+    background: url('../stuff/bloco_mensal.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo02 {
+    background: url('../stuff/blue_pack.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo03 {
+    background: url('../stuff/conjunto_escolar.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo04 {
+    background: url('../stuff/marca_texto.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo05 {
+    background: url('../stuff/pink_pack.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/*Configuração básica de cada li(foto) ampliando o size e colocando a posição no centro*/
+ul#photos li#photo06 {
+    background: url('../stuff/diario.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+/*Configuração básica ao passar o mouse por cima de cada foto mudando o size para menor e mudar a posição*/
+ul#photos li#photo06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

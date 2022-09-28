@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*Main Contato*/
+
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-weight: normal;
+    font-size: 13pt;
+    margin-bottom: 5px;
+}
+
+input:hover, textarea:hover {
+    background-color: rgba(218, 204, 204, 0.733);
+}
+
+legend {
+    color: whitesmoke;
+    font-weight: 550;
+    font-size: 13pt;
+    padding-right: 5px;
+}
+
+fieldset {
+    border: transparent;
+    margin: 20px;
+    border-top: 1px solid whitesmoke;
+    margin-bottom: -10px;
+}
+
+.content-title {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-left: 20%;
+    margin-bottom: -15px;
+    margin-top: 5px;
+}
+
+.content-text {
+    color: whitesmoke;
+    margin-top: 5px;
+    font-weight: 450;
+}
+
+.content-button {
+    margin-top: 30px;
+    margin-left: 40%;
+    background-color: #7fbcf5;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 13px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    border-radius: 20px;
+    border:none;
+}
